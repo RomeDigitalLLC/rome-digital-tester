@@ -11,5 +11,12 @@
   "assets": {
     "directory": "./dist/client",
     "not_found_handling": "single-page-application"
+  },
+  "env": {
+    "stage": {
+      "name": "rome-digital-tester",
+      "zone_id":"58d34b23d21440e84cf4de85502bd6f6",
+      "routes": "stage.tazworld.win/*"
+      }
   }
 }
